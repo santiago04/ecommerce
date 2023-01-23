@@ -16,3 +16,8 @@ body {
     font-family: var(--fuenteTextos);
     font-size: 1.6rem;
 }
+.contenedor {
+    width: 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+}
