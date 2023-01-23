@@ -1,0 +1,18 @@
+:root {
+    --fuenteHeading: 'Playfair Display', serif;
+    --fuenteTextos: 'Raleway', sans-serif;
+
+    --colorPrincipal: #0373db;
+    --colorSecundario: #03b803;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: var(--fuenteTextos);
+    font-size: 1.6rem;
+}
