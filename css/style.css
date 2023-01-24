@@ -4,6 +4,8 @@
 
     --colorPrincipal: #0373db;
     --colorSecundario: #03b803;
+    --negro: #000000;
+    --blanco: #FFFFFF;
 }
 html {
     box-sizing: border-box;
@@ -16,11 +18,36 @@ body {
     font-family: var(--fuenteTextos);
     font-size: 1.6rem;
 }
+h1, h2, h3 {
+    font-family: var(--fuenteHeading);
+    margin: 0;
+}
+h1 {
+    font-size: 5rem;
+}
+a {
+    text-decoration: none;
+}
 .contenedor {
     width: 1200px;
     max-width: 95%;
     margin: 0 auto;
 }
-h2 {
+.heading__titulo {
     text-align: center;
+    padding: 5rem 0;
+}
+.heading__titulo span {
+    color: var(--colorPrincipal);
+}
+.header {
+    border-top: 1px solid #e1e1e1;
+}
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+.navegacion a {
+    color: var(--negro);
 }
