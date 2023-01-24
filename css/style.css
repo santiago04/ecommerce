@@ -20,10 +20,14 @@ body {
 }
 h1, h2, h3 {
     font-family: var(--fuenteHeading);
+    text-align: center;
     margin: 0;
 }
 h1 {
     font-size: 5rem;
+}
+h2 {
+    font-size: 4rem;
 }
 a {
     text-decoration: none;
@@ -34,7 +38,6 @@ a {
     margin: 0 auto;
 }
 .heading__titulo {
-    text-align: center;
     padding: 5rem 0;
 }
 .heading__titulo span {
@@ -50,4 +53,12 @@ a {
 }
 .navegacion a {
     color: var(--negro);
+}
+
+/** main **/
+.heading__main {
+    margin-top: 5rem;
+}
+.parrafo__main {
+    font-size: 2.4rem;
 }
