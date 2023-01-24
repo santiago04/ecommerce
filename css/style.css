@@ -32,6 +32,10 @@ h2 {
 a {
     text-decoration: none;
 }
+img {
+    width: 100%;
+    margin: 0;
+}
 .contenedor {
     width: 1200px;
     max-width: 95%;
@@ -53,6 +57,7 @@ a {
 }
 .navegacion a {
     color: var(--negro);
+    padding: 2rem 0;
 }
 
 /** main **/
